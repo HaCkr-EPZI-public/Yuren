@@ -51,10 +51,10 @@ if (bars) {
   });
 }
 
-window.addEventListener("load", function () {
-  const loader = document.getElementById("page-loader");
-  const mainContent = document.getElementById("main-content");
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      document.getElementById("loader-overlay").style.display = "none";
+      document.getElementById("main-content").style.display = "block";
+    }, 5000);
+  });
 
-  loader.style.display = "none";
-  mainContent.style.display = "block";
-});
