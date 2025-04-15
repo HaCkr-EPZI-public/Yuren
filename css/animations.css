@@ -1,0 +1,41 @@
+.animate-text {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+  }
+  
+  .animate-img {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  .animate-card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+    animation-delay: 0.1s;
+  }
+  
+  .animate-form {
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .animate-text, .animate-img, .animate-card, .animate-form {
+      animation-duration: 0.5s; /* Faster for mobile */
+    }
+  }
