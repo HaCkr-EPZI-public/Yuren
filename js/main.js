@@ -58,3 +58,10 @@ if (bars) {
     }, 5000);
   });
 
+  function refreshImages() {
+    const timestamp = new Date().getTime();
+    document.getElementById("epziii-stats").src = `https://github-readme-stats.vercel.app/api?username=Epziii&show_icons=true&theme=tokyonight&${timestamp}`;
+    document.getElementById("epzi-stats").src = `https://github-readme-stats.vercel.app/api?username=HaCkr-EPZI-public&show_icons=true&theme=tokyonight&${timestamp}`;
+  }
+
+  setInterval(refreshImages, 30000); // 30 seconds
