@@ -6,7 +6,7 @@
   
   .animate-img {
     opacity: 0;
-    animation: fadeIn 1s ease forwards;
+    animation: fadeIn 5s ease forwards;
   }
   
   .animate-card {
