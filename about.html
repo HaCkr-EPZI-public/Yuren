@@ -1,89 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/animations.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
 </head>
+
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="services.html">Services</a></li>
-      </ul>
-      <label class="ui-switch" id="ui-switch">
-        <input type="checkbox">
-        <div class="slider">
-          <div class="circle"></div>
-        </div>
-      </label>
-    </nav>
-  </header>
-  <main>
-    <section class="about">
-        <h1 class="animate-text">About Me</h1>
-        <img src="assets/profile.jpg" alt="Your Name" class="profile-pic animate-img">
-        <p>I'm Your Name, a 25-year-old web developer passionate about creating innovative solutions. Skilled in Node.js, JavaScript, Python, and more, I aim to build impactful software.</p>
-        <h2>Skills</h2>
-        <div class="skills-charts">
-          <div class="chart">
-            <h3>Front-End</h3>
-            <div class="bar">
-              <span class="label">HTML</span>
-              <div class="bar-fill" data-percent="90"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <label class="ui-switch" id="ui-switch">
+                <input type="checkbox">
+                <div class="slider">
+                    <div class="circle"></div>
+                </div>
+            </label>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <h1 class="animate-text">About Me</h1>
+            <img src="https://i.ibb.co/hJGsZCrh/me-rbg.png" alt="Yuren" class="profile-pic animate-img">
+            <p>I'm Yuren Sasanka, a 17-year-old web developer passionate about creating innovative solutions. Skilled in
+                Node.js, JavaScript, CSS, HTML, and more, I aim to build impactful software.</p>
+            <h2>Skills</h2>
+            <div class="skills-charts">
+                <div class="chart">
+                    <h3>Front-End</h3>
+                    <div class="bar">
+                        <span class="label">HTML</span>
+                        <div class="bar-fill" data-percent="100"></div>
+                    </div>
+                    <div class="bar">
+                        <span class="label">CSS</span>
+                        <div class="bar-fill" data-percent="90"></div>
+                    </div>
+                    <div class="bar">
+                        <span class="label">JavaScript</span>
+                        <div class="bar-fill" data-percent="75"></div>
+                    </div>
+                </div>
+                <div class="chart">
+                    <h3>Back-End</h3>
+                    <div class="bar">
+                        <span class="label">Node.js</span>
+                        <div class="bar-fill" data-percent="75"></div>
+                    </div>
+                    <div class="bar">
+                        <span class="label">Python</span>
+                        <div class="bar-fill" data-percent="10"></div>
+                    </div>
+                    <div class="bar">
+                        <span class="label">Java</span>
+                        <div class="bar-fill" data-percent="10"></div>
+                    </div>
+                </div>
+                <div class="chart">
+                    <h3>Other Technologies</h3>
+                    <div class="bar">
+                        <span class="label">MongoDB</span>
+                        <div class="bar-fill" data-percent="35"></div>
+                    </div>
+                    <div class="bar">
+                        <span class="label">SQL</span>
+                        <div class="bar-fill" data-percent="30"></div>
+                    </div>
+                    <div class="bar">
+                        <span class="label">React</span>
+                        <div class="bar-fill" data-percent="5"></div>
+                    </div>
+                </div>
             </div>
-            <div class="bar">
-              <span class="label">CSS</span>
-              <div class="bar-fill" data-percent="85"></div>
-            </div>
-            <div class="bar">
-              <span class="label">JavaScript</span>
-              <div class="bar-fill" data-percent="80"></div>
-            </div>
-          </div>
-          <div class="chart">
-            <h3>Back-End</h3>
-            <div class="bar">
-              <span class="label">Node.js</span>
-              <div class="bar-fill" data-percent="75"></div>
-            </div>
-            <div class="bar">
-              <span class="label">Python</span>
-              <div class="bar-fill" data-percent="70"></div>
-            </div>
-            <div class="bar">
-              <span class="label">Java</span>
-              <div class="bar-fill" data-percent="65"></div>
-            </div>
-          </div>
-          <div class="chart">
-            <h3>Other Technologies</h3>
-            <div class="bar">
-              <span class="label">MongoDB</span>
-              <div class="bar-fill" data-percent="70"></div>
-            </div>
-            <div class="bar">
-              <span class="label">SQL</span>
-              <div class="bar-fill" data-percent="65"></div>
-            </div>
-            <div class="bar">
-              <span class="label">React</span>
-              <div class="bar-fill" data-percent="80"></div>
-            </div>
-          </div>
-        </div>
-        <h2>Career Highlights</h2>
-        <p>Developed a WhatsApp bot with 100+ users, led an AI-driven web project, and contributed to open-source frameworks.</p>
-      </section>
-  </main>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/animations.js"></script>
+
+            <h4>🏆 Trophies</h4>
+
+            <p align="center">
+                <img
+                    src="https://github-profile-trophy.vercel.app/?username=Epziii&theme=tokyonight&no-frame=true&margin-w=10" /><hr><br>
+                
+                <img
+                    src="https://github-profile-trophy.vercel.app/?username=HaCkr-EPZI-public&theme=tokyonight&no-frame=true&margin-w=10" />
+            </p>
+
+            ---
+
+            <h2>Career Highlights</h2>
+            <p>Developed a WhatsApp bot with 100+ users, led an AI-driven web project, and contributed to open-source
+                frameworks.</p>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
 </body>
+
 </html>
